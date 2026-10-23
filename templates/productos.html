@@ -1,17 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Productos</title>
-    </head>
-    <body>
-        <h1>Productos</h1>
-        <p>Estos son los productos que ofrecemos:</p>
-        <ul>
-            <li>Producto 1</li>
-            <li>Producto 2</li>
-            <li>Producto 3</li>
-        </ul>
-    </body>
-</html>
+{% extends "layout.html" %}
+
+{% block content %}
+
+
+<div class="container-fluid">
+    <h1>Productos</h1>
+    <p>{{message}}</p>
+    <p>Esta es la página de productos.</p>
+</div>
+
+{% endblock %}
+
