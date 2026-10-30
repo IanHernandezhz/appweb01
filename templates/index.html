@@ -2,8 +2,13 @@
     
 {% block content%}    
     
-    <div class="container-fluid">
+    <div class="view-container"></div>
         <h1>UDL ICO</h1>
+        <div class="Text center"></div>
+        <img src="{{ url_for('static', filename='img/png icon.png') }}" alt="Logo" class="logo"
+            alt="Prueba de imagen" class="img-fluid" style="max-width: 300px; max-height: auto;">
+            
+        </div>
         <p>Hola, {{mensaje}}</p>
         <p>Esta es una página de prueba de Flask</p>
     </div>

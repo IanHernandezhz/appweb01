@@ -1,4 +1,4 @@
-/* Estilos generales para un diseño profesional y minimalista */
+
 .custom-body {
     background-color: #f9fafb;
     color: #1f2937;
@@ -11,7 +11,7 @@
     padding: 2.5rem 1.5rem;
 }
 
-/* Navbar minimalista */
+
 .custom-navbar {
     background-color: #ffffff !important;
     border: 1px solid #e5e7eb;
@@ -33,7 +33,7 @@
     color: #111827 !important;
 }
 
-/* Contenedor de contenido de las vistas */
+
 .content-wrapper {
     background: #ffffff;
     border: 1px solid #e5e7eb;
@@ -60,4 +60,29 @@
     font-size: 0.925rem;
     color: #6b7280;
     margin-bottom: 0;
+}
+
+p:first-of-type {
+font-weight: 600;
+color: var(--text-primary);
+font-size: 1.15rem;
+}
+
+/* Configuración del carrusel */
+.mi-carrusel {
+max-width: 800px;
+margin: 30px auto;
+}
+
+/* Ajustar tamaño de las imágenes */
+.mi-carrusel .carousel-item img {
+height: 350px;
+width: 100%;
+object-fit: contain;
+}
+
+/* Hacer visibles los controles sobre fondos claros */
+.mi-carrusel .carousel-control-prev-icon,
+.mi-carrusel .carousel-control-next-icon {
+filter: invert(1);
 }
